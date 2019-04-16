@@ -15,7 +15,7 @@ This [task](horst_1413814aa07a564df58dd90f700b2afd.tgz) is about a crypto-system
 We are given the [source code](horst.py) of the cryptosystem and [two known pairs](data.txt) of `(plaintext, ciphertext)` encrypted with the same key, and are required to find this key `k`.
 
 
-## the group and operation
+## the group and operation properties
 Looking at the source and doing some trial and error, we will see:
 * `P * P.inv() == Permutation(range(64))`  [let's call it: I]
 * `P * I == P`
@@ -173,3 +173,9 @@ solved counter: 64
 The flag is: PCTF{69f4153d282560cdaab05e14c9f1b7e0a5cc74d1}
 '''
 ```
+
+## other approaches
+My teammate @abeaumont also [solved it](https://github.com/abeaumont/ctfs/tree/master/plaidctf-2019/horst) using another interesting approach using [picat](http://picat-lang.org/)
+
+
+
