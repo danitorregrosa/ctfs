@@ -1,5 +1,15 @@
 # Horst
 
+## description
+```
+They say 3 rounds is provably secure, right?
+
+https://play.plaidctf.com/files/horst_1413814aa07a564df58dd90f700b2afd.tgz
+
+Crypto (200 pts)
+```
+
+
 This [task](horst_1413814aa07a564df58dd90f700b2afd.tgz) is about a crypto-system related to Permutations of range(64).
 
 We are given the [source code](horst.py) of the cryptosystem and [two known pairs](data.txt) of `(plaintext, ciphertext)` encrypted with the same key, and are required to find this key `k`.
